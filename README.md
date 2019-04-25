@@ -3,6 +3,7 @@ yield-from的解释
 
 
 
+yield的运行路线.jpg是yield的代码运行顺序
 
 yield return.py观察生成器有return与否的区别
 
