@@ -1,5 +1,7 @@
 # yield-from-explicate
-yield-from解释
+yield-from的解释
+
+
 
 
 yield return.py观察生成器有return与否的区别
