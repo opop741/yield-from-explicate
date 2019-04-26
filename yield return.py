@@ -42,5 +42,5 @@ print(sub_gen1.send(None))
 '''
 总结：
     1、一层的生成器在调用方使其中断时，其StopIteration异常是指向调用语句的
-    2、一层的生成器里面有return时其值跟随StopIteration一起抛出到调用语句处，没有时返回的值其实就是None
+    2、一层的生成器里面有return时其值跟随StopIteration一起(第1个参数)抛出到调用语句处，用StopIteration.value来提取，没有return时返回的值其实就是None
 '''
